@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;;
+}
+
+.header-links a {
+    margin: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.photo-frame-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px 20px;
+}
+
+.website-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 380px;
+}
+
+.sign-up-main {
+    max-width: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    flex: 0 0 1;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.web-info-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.web-info-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-image {
+    display: flex;
+}
+
+.main-image img{
+    width: 400px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-frame {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.photo {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.photo-text {
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.quote-content {
+    font-size: 36px;
+    width: 850px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    padding-right: 350px;
+    font-weight: bold;
+}
+
+.sign-up-call {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 200px;
+    padding: 50px;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.sign-up-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sign-up-sec {
+    background-color: inherit;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    width: 150px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 50px;
+}
